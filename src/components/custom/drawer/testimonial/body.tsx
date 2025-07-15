@@ -24,7 +24,7 @@ export default function Body({ currentIndex }: ProjectDrawerBody) {
                     </div>
 
                     <div className="flex flex-col mt-4 gap-3 items-start mb-5">
-                        <span className="text-medium font-medium">Reviews of </span>
+                        <span className="text-medium font-medium">Reviews of</span>
                         <div className="text-medium text-default-500 flex flex-col gap-2">
                             {currentProject?.detail?.map((desc, index) => (
                                 <p key={index}>{desc}</p>
